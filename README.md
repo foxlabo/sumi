@@ -92,6 +92,7 @@ The AI panel routes to multiple providers, switchable per ask:
 | **Anthropic** | HTTP / SSE | API key (with prompt caching) |
 | **Google Gemini** | HTTP / SSE | API key |
 | **OpenAI-compatible** (Ollama / LM Studio / Grok / Together / OpenRouter / Fireworks / vLLM / …) | HTTP / SSE | base URL + optional key |
+| **Claude Code CLI** | subprocess | none (uses your Claude Code subscription) |
 | **Codex CLI** | subprocess | none (uses your Codex subscription) |
 | **Gemini CLI** | subprocess | none |
 
